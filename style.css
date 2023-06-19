@@ -1,14 +1,15 @@
-body{
-    background-color: silver;
-    margin: 0;
-}
+body { 
+    background-image: url('plaza.jpeg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
 
 .banner {
     margin: 0;
     text-align: center;
-    padding: 10em;
+    padding: 5rem;
     font-weight: bold;
-    background-image: url("https://picsum.photos/1200/400");
     background-size: 100% 100%;
 }  
 
@@ -17,19 +18,20 @@ body{
     background-image: url('shell.png'); 
     background-size: cover; 
     background-position: center; 
-    border-radius: 10rem;
+    /* border-radius: 10rem; */
     padding: 1rem ;
-    margin: 1rem 2rem 0 2rem;
+    margin: 1rem 1rem 1rem 1rem;
     color: lightgreen;
     font-weight: bold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     opacity: 1;
-    width: ;
+    width: 150px;
+    height: 150px;
 }
 
 .menu_button:hover{
     transition: 0.25s;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .centered {
@@ -39,12 +41,8 @@ body{
     padding: 10px;
 }
 
-.main_back {
-    background-color: yellowgreen;
-}
-
 .content {
-    background-color: blueviolet;
+    background-color: lightgrey;
     margin: auto;
     width: 70%;
     padding: 20px 60px 20px 60px;
