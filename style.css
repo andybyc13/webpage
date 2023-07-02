@@ -1,8 +1,9 @@
 body { 
     background-image: url('plaza.jpeg');
-    background-position: center; 
+    background-position: 0% 100%;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: 100%;
   }
 
 .banner {
